@@ -1,4 +1,4 @@
-```python
+
 # Define a multiline string containing daily sales data
 daily_sales = \
 """Edith Mcbride   ;,;$1.21   ;,;   white ;,; 
@@ -63,9 +63,7 @@ white&black&red ;,;09/15/17   ,   Rex Hudson
 ;,;   $30.80 ;,;   purple&yellow   ;,; 09/15/17   , 
 Hannah Pratt;,;   $22.61   ;,;   purple&yellow   
 ;,;09/15/17,Gayle Richards;,;$22.19 ;,; 
-green&purple&yellow ;
-
-,;09/15/17   ,Stanley Holland 
+green&purple&yellow ;,;09/15/17   ,Stanley Holland 
 ;,; $7.47   ;,; red ;,; 09/15/17 , Anna Dean;,;$5.49 ;,; yellow&red ;,;   09/15/17   ,
 Terrance Saunders ;,;   $23.70  ;,;green&yellow&red 
 ;,; 09/15/17 ,   Brandi Zimmerman ;,; $26.66 ;,; 
@@ -164,4 +162,4 @@ colors = ['red', 'yellow', 'green', 'white', 'black', 'purple']
 # Print color counts
 for color in colors:
   print("Thread Shed sold {} threads of {} thread today.".format(color_count(color), color))
-```
+
